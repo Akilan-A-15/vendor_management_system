@@ -62,6 +62,12 @@ Contributions are welcome! If you'd like to contribute to the project, please fo
     Commit your changes: git commit -m 'Add new feature'.
     Push the branch to your fork: git push origin feature-name.
     Open a pull request.
+**License**
+License
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+Make sure to replace placeholder values like `your-username` and `feature-name` with your GitHub username and the name of your feature or enhancement.
+Additionally, you may want to include more specific details about your project, such as API documentation, usage examples, or any other relevant information.
 
 
 
