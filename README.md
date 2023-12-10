@@ -8,6 +8,10 @@ The Vendor Management System is a Django-based web application for managing vend
 - [Getting Started](#getting-started)
   - [Prerequisites](#prerequisites)
   - [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
+
 
 ## Features
 
@@ -17,7 +21,7 @@ The Vendor Management System is a Django-based web application for managing vend
 
 ## Getting Started
 
-### Prerequisites
+### Prerequisites 
 
 Make sure you have the following installed on your local machine:
 
@@ -29,6 +33,36 @@ Make sure you have the following installed on your local machine:
 
 1. Clone the repository:
 
-```bash
 git clone https://github.com/your-username/vendor-management-system.git
+
+2. Navigate to the project directory:
+    cd vendor-management-system
+3. Create a virtual environment (optional but recommended):
+   python -m venv venv
+4. Activate the virtual environment:
+  On Windows:
+    venv\Scripts\activate
+  On macOS/Linux:
+    source venv/bin/activate
+5. Install the dependencies:
+    pip install -r requirements.txt
+6. Apply database migrations:
+
+    python manage.py migrate
+**##Usage**
+  Run the development server:
+    python manage.py runserver
+
+   Open your web browser and go to http://localhost:8000 to access the application.
+
+**##Contributing**
+Contributions are welcome! If you'd like to contribute to the project, please follow these steps:
+    Fork the repository.
+    Create a new branch for your feature: git checkout -b feature-name.
+    Commit your changes: git commit -m 'Add new feature'.
+    Push the branch to your fork: git push origin feature-name.
+    Open a pull request.
+
+
+
 
